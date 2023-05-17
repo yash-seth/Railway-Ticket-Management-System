@@ -1,0 +1,33 @@
+*{
+    margin:auto;
+    padding:0px;
+    color:whitesmoke;    
+}
+.container-fluid a {
+    font-size: 20px;
+}
+.container{
+    margin:auto;
+    max-width:80%;
+    padding: 34px;  
+}
+.container h1{
+    font-size: 45px;
+    margin:4px 64px;
+    text-align: center;
+    padding:0px;
+    font-family: 'Architects Daughter', cursive;
+}
+.container p{
+    font-size: 30px;
+    margin:0px ;
+    text-align:left;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.bg{
+    width:100%;
+    position:absolute;
+    z-index: -1;
+}
+

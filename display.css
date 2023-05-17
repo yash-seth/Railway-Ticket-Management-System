@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-div{
+    width:99%;
+    height:80vh;
+    background: -webkit-linear-gradient(left,#101010,#c7d0cf);
+    padding:20px 0 0 0;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 20px;
+}
+h1{
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: 'New Tegomin', serif;
+}
+table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+    margin:auto;
+}
+th, td {
+    border: 1px solid #f2f2f2;
+    padding: 10px 40px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+td{
+    font-size: 23px;
+}
+.fa-edit
+{
+    color:rgb(20, 209, 102);
+}
+.fa-trash
+{
+    color:rgb(250, 10, 10);
+}
+.fa-book
+{
+    color:goldenrod;
+}
+.fa-money
+{
+    color:rgb(121, 187, 21);
+}
